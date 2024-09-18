@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.netfliximg{
+    position: relative;
+    display: inline-block;
+}
+.img1{
+    display: block;
+    width: 1519px;
+    height: 729px;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    width: 140px;
+}
+.container{
+    position: absolute;
+    justify-content: center;
+    top: 139px;
+    left: 560px;
+    width: 440px;
+    height: 590px;
+    background-color: rgba(0, 0, 0, 0.549);
+    padding: 50px;
+}
+.container h1{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.container .input1{
+    width: 330px;
+    height: 55px;
+    margin-top: 35px;
+    background-color: transparent;
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    
+}
+::placeholder{
+    color: rgb(201, 201, 201);
+}
+.container button{
+    width: 330px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(224, 33, 33);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(193, 8, 8);
+}
+.container .p1{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.input2{
+    margin-top: 35px;
+    margin-right: 15px;
+    width: 20px;
+    
+}
+.p2{
+    color: white;
+    font-size: 17px;
+}
+.p3{
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+.p3 a{
+    color: white;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.footer .a1{
+    margin-top: 280px;
+    margin-left: 300px;
+    color: white;
+    font-size: 19px;
+}
+.footer .a2{
+    margin-top: 285px;
+    margin-left: 200px;
+    color: white;
+    font-size: 18px;
+}
+.footer .a3{
+    margin-top: 287px;
+    margin-left: 200px;
+    color: white;
+    font-size: 18px;
+}
